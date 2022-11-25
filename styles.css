@@ -35,11 +35,16 @@
 }
 footer .button{
   margin: 40px;
-  background-color: white;
-
+  background-color: green;
+  border-radius: 20px;
+  text-decoration: none;
+  text-align: center;
+  padding: 20px;
 }
-
-
+.button:hover{
+  background-color: white;
+  cursor: pointer;
+}
 
 .figure{
   height: 250px;
