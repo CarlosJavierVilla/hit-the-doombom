@@ -57,14 +57,7 @@
   width: 65vh;
   position: relative;
 }
-  
-.drumkit {
-  object-fit: cover;
-  width: 100%;
-  height: 100%;
-  width: 150px;
-  height: 200px;
-}
+
 .elementomusical button {
   padding: 10px;
   cursor: pointer;
