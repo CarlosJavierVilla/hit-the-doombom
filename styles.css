@@ -8,4 +8,11 @@
 }
 .main {
   background-color: aliceblue;
+  width: 20%;
+  height: 20%;
+}
+footer .button{
+  margin: 40px;
+  background-color: white;
+
 }
