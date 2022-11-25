@@ -11,41 +11,45 @@
   top: 25%;
   left: 40%;
 }
- 
-  
-  .navbar{float:right;
-    font-family: helvetica;
-    font-size: smaller;
-    text-decoration: none;
-    padding-right: 30px;
-    color: antiquewhite;
+
+.navbar {
+  float: right;
+  font-family: helvetica;
+  font-size: smaller;
+  text-decoration: none;
+  padding-right: 30px;
+  color: antiquewhite;
 }
 
-
-.logo  {float:left;
-        width: 10%;
-        height: auto;
-      
-
+.logo {
+  float: left;
+  width: 10%;
+  height: auto;
 }
 .main {
+  display: flex;
+  justify-content: space-between;
   background-color: aliceblue;
   width: 20%;
   height: 20%;
 }
-footer .button{
+footer .button {
   margin: 40px;
   background-color: white;
-
 }
 
-
-
-.figure{
-  height: 250px;
-  width: 250px;
+.figure {
+  background-color: rgba(240, 34, 6, 0.582);
+  height: 150px;
+  width: 150px;
+  max-width: 150px;
+  max-height: 150px;
 }
-.elementomusical button{
+.drumkit {
+  display: flex;
+  align-items: center;
+}
+.elementomusical button {
   padding: 10px;
   cursor: pointer;
   border-radius: 100px;
