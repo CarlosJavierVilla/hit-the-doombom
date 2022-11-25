@@ -5,47 +5,45 @@
 .cabecera {
   background-color: rgba(255, 255, 255, 0.74);
   display: flex;
-  align-content: center;
-  text-align: center;
-  position: absolute;
-  top: 25%;
-  left: 40%;
+  justify-content: space-around;
+  
+  
+}
+ 
+  
+  .navbar{float:right;
+    font-family: helvetica;
+    font-size: smaller;
+    text-decoration: none;
+    padding-right: 30px;
+   
+   
 }
 
-.navbar {
-  float: right;
-  font-family: helvetica;
-  font-size: smaller;
-  text-decoration: none;
-  padding-right: 30px;
-  color: antiquewhite;
+.nav {display: flex;
+      align-items: center;
+
 }
 
-.logo {
-  float: left;
-  width: 10%;
-  height: auto;
+
+.logo  {float: left;
+      
 }
+
 .main {
   display: flex;
-  justify-content: space-between;
-  background-color: aliceblue;
+  background-color: rgb(0, 93, 175);
   width: 20%;
   height: 20%;
 }
 
 .figure {
   display: block;
-  background-color: rgba(240, 34, 6, 0.582);
+  background-color: rgb(255, 30, 0);
   height: 3500px;
   width: 350px;
   max-width: 350px;
   max-height: 350px;
-  
-}
-.button:hover{
-  background-color: white;
-  cursor: pointer;
 }
 
 
@@ -56,6 +54,18 @@
   height: 45vh;
   width: 65vh;
   position: relative;
+}
+  
+.drumkit {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  width: 150px;
+  height: 200px;
+}
+.button:hover {
+  background-color: white;
+  cursor: pointer;
 }
 
 .elementomusical button {
