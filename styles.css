@@ -43,6 +43,16 @@
   max-height: 350px;
 }
 
+
+.elementomusical{
+  background-image: url(drumkit.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 45vh;
+  width: 65vh;
+  position: relative;
+}
+  
 .drumkit {
   object-fit: cover;
   width: 100%;
@@ -61,6 +71,11 @@
   border-radius: 100px;
   background-color: rgb(210, 209, 209);
 }
+
+.sonidos{
+  position: absolute;
+}
+
 footer .button {
   margin: 40px;
   background-color: white;
