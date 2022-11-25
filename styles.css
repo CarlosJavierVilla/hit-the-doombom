@@ -1,6 +1,5 @@
 * {
   font-family: Helvetica;
-  background-color: darkblue;
   padding: 0%;
 }
 .cabecera {
@@ -15,4 +14,15 @@ footer .button{
   margin: 40px;
   background-color: white;
 
+}
+
+.figure{
+  height: 250px;
+  width: 250px;
+}
+.elementomusical button{
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 100px;
+  background-color: rgb(210, 209, 209);
 }
