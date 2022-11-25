@@ -11,34 +11,42 @@
   top: 25%;
   left: 40%;
 }
- 
-  
-  .navbar{float:right;
-    font-family: helvetica;
-    font-size: smaller;
-    text-decoration: none;
-    padding-right: 30px;
-    color: antiquewhite;
+
+.navbar {
+  float: right;
+  font-family: helvetica;
+  font-size: smaller;
+  text-decoration: none;
+  padding-right: 30px;
+  color: antiquewhite;
 }
 
-
-.logo  {float:left;
-        width: 10%;
-        height: auto;
-      
-
+.logo {
+  float: left;
+  width: 10%;
+  height: auto;
 }
 .main {
+  display: flex;
+  justify-content: space-between;
   background-color: aliceblue;
   width: 20%;
   height: 20%;
 }
-footer .button{
-  margin: 40px;
-  background-color: white;
 
+.figure {
+  display: block;
+  background-color: rgba(240, 34, 6, 0.582);
+  height: 3500px;
+  width: 350px;
+  max-width: 350px;
+  max-height: 350px;
+  
 }
-
+.button:hover{
+  background-color: white;
+  cursor: pointer;
+}
 
 
 .elementomusical{
@@ -48,9 +56,16 @@ footer .button{
   height: 45vh;
   width: 65vh;
   position: relative;
-
 }
-.elementomusical button{
+  
+.drumkit {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  width: 150px;
+  height: 200px;
+}
+.elementomusical button {
   padding: 10px;
   cursor: pointer;
   border-radius: 100px;
@@ -59,4 +74,14 @@ footer .button{
 
 .sonidos{
   position: absolute;
+}
+
+footer .button {
+  margin: 40px;
+  background-color: white;
+  background-color: green;
+  border-radius: 20px;
+  text-decoration: none;
+  text-align: center;
+  padding: 20px;
 }
