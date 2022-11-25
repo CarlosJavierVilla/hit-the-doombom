@@ -41,13 +41,22 @@ footer .button{
 
 
 
-.figure{
-  height: 250px;
-  width: 250px;
+.elementomusical{
+  background-image: url(drumkit.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 45vh;
+  width: 65vh;
+  position: relative;
+
 }
 .elementomusical button{
   padding: 10px;
   cursor: pointer;
   border-radius: 100px;
   background-color: rgb(210, 209, 209);
+}
+
+.sonidos{
+  position: absolute;
 }
