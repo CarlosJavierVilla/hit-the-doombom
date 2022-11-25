@@ -1,6 +1,7 @@
 * {
   font-family: Helvetica;
   padding: 0%;
+  background-color: rgb(6, 6, 84);
 }
 .cabecera {
   background-color: rgba(255, 255, 255, 0.74);
@@ -52,8 +53,20 @@ color: rgb(255, 255, 255);
   background-color: rgba(145, 145, 145, 0.349);
 }
 .boton{
-  
+  padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: black;
+  background-color: green;
+  border: none;
+  border-radius: 15px;
 }
+.boton:hover {
+  background-color: green;
+}
+
 .figure {
   display: block;
   background-color: rgb(255, 30, 0);
@@ -97,8 +110,6 @@ color: rgb(255, 255, 255);
 
 footer .button {
   margin: 40px;
-  background-color: white;
-
   background-color: #61f96b ;
   border-radius: 20px;
   text-decoration: none;
