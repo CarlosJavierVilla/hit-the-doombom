@@ -36,16 +36,11 @@
 
 .figure {
   display: block;
-  background-color: rgba(240, 34, 6, 0.582);
+  background-color: rgb(255, 30, 0);
   height: 3500px;
   width: 350px;
   max-width: 350px;
   max-height: 350px;
-  
-}
-.button:hover{
-  background-color: white;
-  cursor: pointer;
 }
 
 .drumkit {
@@ -55,6 +50,11 @@
   width: 150px;
   height: 200px;
 }
+.button:hover {
+  background-color: white;
+  cursor: pointer;
+}
+
 .elementomusical button {
   padding: 10px;
   cursor: pointer;
