@@ -100,21 +100,9 @@ p {
   background-image: url(/hit-the-doombom/images/drumkit.png);
   background-size: cover;
   background-repeat: no-repeat;
-  height: 45vh;
-  width: 65vh;
+  height: 50vh;
+  width: 75vh;
   position: relative;
-}
-
-.drumkit {
-  object-fit: cover;
-  width: 100%;
-  height: 100%;
-  width: 150px;
-  height: 200px;
-}
-.button:hover {
-  background-color: white;
-  cursor: pointer;
 }
 
 .elementomusical button {
@@ -124,8 +112,23 @@ p {
   background-color: rgb(210, 209, 209);
 }
 
-.sonidos {
+.sonidosA{
   position: absolute;
+  display: flex;
+  flex-direction: column;
+  left: 5vh;
+}
+.sonidosB{
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  left: 27vh;
+}
+.sonidosC{
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  left: 57vh;
 }
 
 footer .button {
