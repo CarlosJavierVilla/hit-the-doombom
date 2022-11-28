@@ -13,6 +13,8 @@ body {
 
   display: flex;
   justify-content: space-around;
+  margin-bottom: 100px;
+  margin-top: 25px;
 }
 
 .navbar {
@@ -26,6 +28,7 @@ body {
 .nav {
   display: flex;
   align-items: center;
+  padding-left: 180px;
 }
 
 .nav p { color: white;
@@ -35,6 +38,7 @@ body {
 
 .logo {
   float: left;
+  padding-right: 180px;
 }
 .navbar:hover {
   color: #61f96b;
@@ -102,6 +106,7 @@ p {
   height: 50vh;
   width: 75vh;
   position: relative;
+  
 }
 
 .elementomusical button{
@@ -116,7 +121,10 @@ p {
   display: flex;
   flex-direction: column;
   left: 5vh;
+  
 }
+ 
+
 .sonidosB {
   position: absolute;
   display: flex;
@@ -131,17 +139,19 @@ p {
 }
 
 footer .button {
-  background-color: #61f96b;
-  border-radius: 20px;
-  padding: 10px;
-  text-decoration: none;
-  color: beige;
+  padding: 15px 25px;
+  font-size: 15px;
+  width: 150px;
+  height: 45px;
   text-align: center;
-}
-.button:hover{
-  background-color: #01af5e;
   cursor: pointer;
+  outline: none;
+  color: rgb(255, 255, 255);
+  background-color: #00f482;
+  border: none;
+  border-radius: 30px;
 }
+  
 
 
 h2{color: white;
@@ -154,7 +164,7 @@ h3 {
   color: #5b5971;
   font-weight: light;
   font-size: 11px;
- margin: 0px;
+  margin: 20 px;
 }
 
 .footer {
