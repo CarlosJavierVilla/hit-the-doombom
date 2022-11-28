@@ -1,6 +1,7 @@
 * {
   font-family: Helvetica;
   padding: 0%;
+  background-color: rgb(6, 6, 84);
 }
 body {
   background-image: url(/hit-the-doombom/images/fondo.png);
@@ -72,13 +73,21 @@ p {
   width: 200px;
   height: 100px;
 }
-.boton {
-  color: #ffffff;
-  background-color: #04d604;
-  width: 150px;
-  height: 50px;
-  border-radius: 40px;
+.boton{
+  padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: black;
+  background-color: green;
+  border: none;
+  border-radius: 15px;
 }
+.boton:hover {
+  background-color: green;
+}
+
 .figure {
   display: block;
   background-color: rgb(255, 30, 0);
@@ -122,9 +131,7 @@ p {
 
 footer .button {
   margin: 40px;
-  background-color: white;
-
-  background-color: #61f96b;
+  background-color: #61f96b ;
   border-radius: 20px;
   text-decoration: none;
   text-align: center;
