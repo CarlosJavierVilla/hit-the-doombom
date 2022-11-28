@@ -1,10 +1,9 @@
 * {
   font-family: Helvetica;
   padding: 0%;
-  background-color: rgb(6, 6, 84);
+  background-color: rgb(1, 0, 32);
 }
 body {
-  background-image: url(/hit-the-doombom/images/fondo.png);
   padding: 0%;
   width: fit-content;
   background-repeat: no-repeat;
@@ -73,7 +72,7 @@ p {
   width: 200px;
   height: 100px;
 }
-.boton{
+.boton {
   padding: 15px 25px;
   font-size: 24px;
   text-align: center;
@@ -98,7 +97,7 @@ p {
 }
 
 .elementomusical {
-  background-image: url(drumkit.png);
+  background-image: url(/hit-the-doombom/images/drumkit.png);
   background-size: cover;
   background-repeat: no-repeat;
   height: 45vh;
@@ -131,7 +130,7 @@ p {
 
 footer .button {
   margin: 40px;
-  background-color: #61f96b ;
+  background-color: #61f96b;
   border-radius: 20px;
   text-decoration: none;
   text-align: center;
