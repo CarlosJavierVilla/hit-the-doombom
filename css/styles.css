@@ -28,6 +28,11 @@ body {
   align-items: center;
 }
 
+.nav p { color: white;
+         font-weight: bold;
+
+}
+
 .logo {
   float: left;
 }
@@ -58,12 +63,15 @@ h1 {
   font-size: 40px;
   padding-bottom: 150px;
   padding-top: 40px;
+  padding-right: 20px;
 }
 .letra2 {
-  background-color: rgba(12, 2, 155, 0);
+  background-color: rgba(211, 211, 211, 0);
+  color: rgba(255, 255, 255, 0.685);
 }
 p {
   font-size: 11px;
+  color: rgba(91, 89, 113);
 }
 .letra3-boton {
   background-color: rgba(12, 2, 155, 0);
@@ -72,17 +80,16 @@ p {
 }
 .boton {
   padding: 15px 25px;
-  font-size: 24px;
+  font-size: 15px;
+  width: 150px;
+  height: 45px;
   text-align: center;
   cursor: pointer;
   outline: none;
-  color: black;
-  background-color: green;
+  color: rgb(255, 255, 255);
+  background-color: #00f482;
   border: none;
-  border-radius: 15px;
-}
-.boton:hover {
-  background-color: green;
+  border-radius: 30px;
 }
 
 .elementomusical {
@@ -101,20 +108,19 @@ p {
   background-color: rgb(255, 255, 255);
 }
 
-.sonidosA{
+.sonidosA {
   position: absolute;
   display: flex;
   flex-direction: column;
   left: 5vh;
 }
-
-.sonidosB{
+.sonidosB {
   position: absolute;
   display: flex;
   justify-content: center;
   left: 27vh;
 }
-.sonidosC{
+.sonidosC {
   position: absolute;
   display: flex;
   flex-direction: column;
@@ -122,10 +128,30 @@ p {
 }
 
 footer .button {
-  margin: 40px;
+ 
   background-color: #61f96b;
   border-radius: 20px;
   text-decoration: none;
   text-align: center;
-  padding: 20px;
+  
+}
+
+
+h2{color: white;
+  font-size: 25px;
+  font-weight: bold;
+  margin: 0px;
+}
+
+h3 { color: #5b5971;
+  font-weight: light;
+  font-size: 11px;
+   margin: 0px;
+}
+
+.footer {
+ 
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
