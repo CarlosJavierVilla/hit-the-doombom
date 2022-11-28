@@ -10,7 +10,6 @@ body {
   background-size: cover;
 }
 .cabecera {
-
   display: flex;
   justify-content: space-around;
   max-width: 1400px;
@@ -30,9 +29,9 @@ body {
   align-items: center;
 }
 
-.nav p { color: white;
-         font-weight: bold;
-
+.nav p {
+  color: white;
+  font-weight: bold;
 }
 
 .logo {
@@ -93,12 +92,12 @@ p {
   border: none;
   border-radius: 30px;
 }
-.boton:hover{
+.boton:hover {
   background-color: #01af5e;
 }
 
 .elementomusical {
-  background-image: url(/images/drumkit.png);
+  background-image: url(/hit-the-doombom/images/drumkit.png);
   background-size: cover;
   background-repeat: no-repeat;
   height: 50vh;
@@ -106,7 +105,7 @@ p {
   position: relative;
 }
 
-.elementomusical button{
+.elementomusical button {
   padding: 50px;
   cursor: pointer;
   border-radius: 100px;
@@ -139,38 +138,45 @@ footer .button {
   text-align: center;
 }
 
-
-h2{color: white;
+h2 {
+  color: white;
   font-size: 25px;
   font-weight: bold;
   margin: 0px;
 }
 
-h3 { 
+h3 {
   color: #5b5971;
   font-weight: light;
   font-size: 11px;
- margin: 0px;
+  margin: 0px;
 }
 
 .footer {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
-@media (max-width:900px){
-  .cabecera{
+@media (max-width: 900px) {
+  .cabecera {
     flex-direction: column;
     align-items: center;
   }
-  .logo{
+  .logo {
     padding-top: 50px;
     width: 180px;
     height: 50px;
   }
-  .nav{
+  .nav {
     padding-top: 10px;
     display: flex;
-
   }
+  .main{
+    display: flex;
+    flex-direction: column-reverse;
+    padding-top: 100px;
   }
+  .elementomusical {
+  background-size: 400px;
+  }
+}
