@@ -1,0 +1,38 @@
+.elementomusical {
+    background-image: url(/images/drumkit.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50vh;
+    width: 75vh;
+    position: relative;
+    
+  }
+  
+  .elementomusical button{
+    padding: 50px;
+    cursor: pointer;
+    border-radius: 100px;
+    background-color: rgb(255, 255, 255);
+  }
+  
+  .sonidosA {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    left: 5vh;
+    
+  }
+   
+  
+  .sonidosB {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    left: 27vh;
+  }
+  .sonidosC {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    left: 57vh;
+  }

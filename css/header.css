@@ -1,0 +1,34 @@
+.cabecera {
+
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 100px;
+    margin-top: 25px;
+  }
+  
+  .navbar {
+    float: right;
+    font-family: helvetica;
+    font-size: smaller;
+    text-decoration: none;
+    padding-right: 30px;
+  }
+  
+  .nav {
+    display: flex;
+    align-items: center;
+    padding-left: 180px;
+  }
+  
+  .nav p { color: white;
+           font-weight: bold;
+  
+  }
+  
+  .logo {
+    float: left;
+    padding-right: 180px;
+  }
+  .navbar:hover {
+    color: #61f96b;
+  }
