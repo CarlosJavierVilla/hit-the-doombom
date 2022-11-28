@@ -102,10 +102,10 @@ p {
 }
 
 .elementomusical button{
-  padding: 50px;
+  padding: none;
   cursor: pointer;
   border-radius: 100px;
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(0, 0, 0);
 }
 
 .sonidosA {
@@ -114,17 +114,87 @@ p {
   flex-direction: column;
   left: 5vh;
 }
+.uno{
+  position: relative;
+  width: 10px;
+  height: 10px;
+  right: 40px; 
+  padding:6vh;
+  top:2vh;
+}
+.dos{
+  position: relative;
+  width: 15px;
+  height: 15px;
+  left:2vh;
+  padding: 6vh;
+  top:2vh
+}
+.tres{
+  position:relative;
+  width: 50px;
+  height: 50px;
+  left: 6vh;
+  top:2vh;
+  padding: 8vh;
+}
+
 .sonidosB {
   position: absolute;
   display: flex;
   justify-content: center;
-  left: 27vh;
+  left: 195px;
+  gap: 1vh;
 }
+
+.b{
+  position:relative;
+  background-color: #4D4B63 !important;
+  width: 35px;
+  height: 35px;
+  left: 0vh;
+  top: 8vh;
+  padding: 8vh;
+}
+.bs{
+  position:relative;
+  width: 35px;
+  height: 35px;
+  left: 0vh;
+  top: 8vh;
+  padding: 8vh;
+}
+
+
 .sonidosC {
   position: absolute;
   display: flex;
   flex-direction: column;
   left: 57vh;
+}
+.unoc{
+  position: relative;
+  width: 10px;
+  height: 10px;
+  left: 40px; 
+  padding:6vh;
+  top:2vh;
+}
+.dosc{
+  position: relative;
+  width: 15px;
+  height: 15px;
+  right:2vh;
+  padding: 6vh;
+  top:2vh
+}
+.tresc{
+  position:relative;
+  width: 50px;
+  height: 50px;
+  right: 10vh;
+  top:2vh;
+  padding: 8vh;
 }
 
 footer .button {
