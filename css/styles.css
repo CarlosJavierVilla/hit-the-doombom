@@ -133,8 +133,14 @@ p {
 footer .button {
   background-color: #61f96b;
   border-radius: 20px;
+  padding: 10px;
   text-decoration: none;
+  color: beige;
   text-align: center;
+}
+.button:hover{
+  background-color: #01af5e;
+  cursor: pointer;
 }
 
 
@@ -155,4 +161,4 @@ h3 {
     display: flex;
     align-items: center;
     flex-direction: column;
-}
+  }
