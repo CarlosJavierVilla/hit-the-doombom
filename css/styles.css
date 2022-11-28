@@ -13,6 +13,8 @@ body {
 
   display: flex;
   justify-content: space-around;
+  max-width: 1400px;
+  margin: auto;
 }
 
 .navbar {
@@ -90,6 +92,9 @@ p {
   background-color: #00f482;
   border: none;
   border-radius: 30px;
+}
+.boton:hover{
+  background-color: #01af5e;
 }
 
 .elementomusical {
@@ -198,12 +203,10 @@ p {
 }
 
 footer .button {
- 
   background-color: #61f96b;
   border-radius: 20px;
   text-decoration: none;
   text-align: center;
-  
 }
 
 
@@ -213,15 +216,31 @@ h2{color: white;
   margin: 0px;
 }
 
-h3 { color: #5b5971;
+h3 { 
+  color: #5b5971;
   font-weight: light;
   font-size: 11px;
-   margin: 0px;
+ margin: 0px;
 }
 
 .footer {
- 
     display: flex;
     align-items: center;
     flex-direction: column;
 }
+@media (max-width:900px){
+  .cabecera{
+    flex-direction: column;
+    align-items: center;
+  }
+  .logo{
+    padding-top: 50px;
+    width: 180px;
+    height: 50px;
+  }
+  .nav{
+    padding-top: 10px;
+    display: flex;
+
+  }
+  }
