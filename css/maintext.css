@@ -1,3 +1,7 @@
+.main {
+  display: flex;
+  gap: 40vh;
+}
 .info {
     background-color: rgba(17, 0, 255, 0);
     display: flex;
@@ -49,3 +53,4 @@
   .boton:hover{
     background-color: #01af5e;
   }
+ 
