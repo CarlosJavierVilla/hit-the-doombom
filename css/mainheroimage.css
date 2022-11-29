@@ -16,7 +16,7 @@
   padding: none;
   cursor: pointer;
   border-radius: 100px;
-  background-color: rgb(248, 198, 198);
+  background-color: rgb(147, 146, 146);
   top: 1vh;
   z-index: 2;
 }
@@ -24,14 +24,15 @@
   position: absolute;
   display: flex;
   flex-direction: column;
-  left: 5vh;
+  left: 6vh;
+  top: -12px;
 }
 
 .uno{
   position: relative;
   width: 10px;
   height: 10px;
-  right: 3vh; 
+  right: 42px; 
   padding:6vh;
   top: 1vh;
   bottom: 0vh;
@@ -56,17 +57,18 @@
   position: absolute;
   display: flex;
   justify-content: center;
-  left: 195px;
-  gap: 1vh;
+  left: 23vh;
+    gap: 2vh;
+    top: 4vh;
 }
 .b{
   position:relative;
   background-color: #4D4B63 !important;
   width: 35px;
   height: 35px;
-  left: 0vh;
+  left: -1vh;
   top: 8vh;
-  padding: 8vh;
+  padding: 78px;
 }
 .bs{
   position:relative;
@@ -80,13 +82,14 @@
   position: absolute;
   display: flex;
   flex-direction: column;
-  left: 57vh;
+  left: 58vh;
+  top: -14px;
 }
 .unoc{
   position: relative;
   width: 10px;
   height: 10px;
-  left: 40px; 
+  left: 8vh; 
   padding:6vh;
   top:6vh;
 }
@@ -94,8 +97,8 @@
   position: relative;
   width: 15px;
   height: 15px;
-  right:2vh;
-  padding: 5vh;
+  left:2vh;
+  padding: 6vh;
   top:2vh;
 }
 .tresc{
