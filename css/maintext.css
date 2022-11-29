@@ -49,3 +49,6 @@
   .boton:hover{
     background-color: #01af5e;
   }
+  @media (max-width: 1000px) {
+
+  }

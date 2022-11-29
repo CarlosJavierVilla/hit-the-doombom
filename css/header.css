@@ -33,3 +33,17 @@
   .navbar:hover {
     color: #61f96b;
   }
+  @media (max-width: 1000px) { 
+    .cabecera {
+      flex-direction: column;
+      align-items: center;
+      box-sizing: border-box;
+    }
+
+    .logo {
+      padding-top: 50px;
+      width: 180px;
+      height: 50px;
+      padding-left: 65%;
+    }
+  }
