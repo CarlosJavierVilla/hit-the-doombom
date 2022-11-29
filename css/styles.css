@@ -1,7 +1,7 @@
-@import url("/css/header.css");
-@import url("/css/footer.css");
-@import url("/css/maintext.css");
-@import url("/css/mainheroimage.css");
+@import url("./header.css");
+@import url("./footer.css");
+@import url("./maintext.css");
+@import url("./mainheroimage.css");
 
 * {
   font-family: Helvetica;

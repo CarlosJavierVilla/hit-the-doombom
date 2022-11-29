@@ -4,6 +4,7 @@
     justify-content: space-around;
     margin-bottom: 100px;
     margin-top: 25px;
+    box-sizing: border-box;
   }
   
   .navbar {
@@ -14,7 +15,7 @@
     padding-right: 30px;
   }
   
-  .nav {
+  div.nav {
     display: flex;
     align-items: center;
     padding-left: 180px;
