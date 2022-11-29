@@ -37,9 +37,4 @@ footer .button {
         display: flex;
         justify-content: start;
         padding-top: 10px;
-        padding-left: 45%;
-    
-      }
-      @media (max-width: 1000px) {
-
       }
