@@ -1,4 +1,7 @@
 .elementomusical {
+  background-image: url(/images/drumkit.png);
+  background-size: cover;
+  background-repeat: no-repeat;
   height: 50vh;
   width: 75vh;
   position: relative;
