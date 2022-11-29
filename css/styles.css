@@ -18,13 +18,14 @@ body {
   .cabecera {
     display: flex;
     flex-direction: column;
+    margin-bottom: 0px;
   }
 
   .logo {
-    padding-top: 25px;
-    width: 100px;
-    height: 25px;
-    margin-left: 50px;
+    padding-top: 35px;
+    width: 150px;
+    height: 40px;
+    margin-left: 100px;
   }
   div.nav {
     display: flex;
@@ -34,6 +35,7 @@ body {
     flex-direction: column-reverse;
     align-items: flex-start;
     justify-content: flex-start;
+    margin-top: 35px;
   }
   .elementomusical {
     height: 30vh;
@@ -41,8 +43,8 @@ body {
     position: relative;
   }
   img.imgdrum{
-    width: 190px;
-    height: 20vh;
+    width: 340px;
+    height: 30vh;
     z-index: -2;
     position: relative !important;
   }
@@ -59,4 +61,90 @@ body {
     top: 0vh;
     z-index: 2;
   }
+  .sonidosA {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    left: 1vh;
+  }
+  
+  .uno{
+    position: relative;
+    width: 10px;
+    height: 10px;
+    right: 1vh; 
+    padding:3vh;
+    top: 3vh;
+    bottom: 3vh;
+  }
+  .dos{
+    position: relative;
+    width: 15px;
+    height: 15px;
+    left:3vh;
+    padding: 3vh;
+    top:2vh
+  }
+  .tres{
+    position:relative;
+    width: 50px;
+    height: 50px;
+    left: 5vh;
+    top: 5vh;
+    padding: 4vh;
+  }
+  .sonidosB {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    gap: 1vh;
+  }
+  button.b{
+    position:relative;
+    background-color: #4D4B63 !important;
+    width: 35px;
+    height: 35px;
+    left: vh;
+    top: 4vh;
+    padding: 5vh;
+  }
+  .bs{
+    position:relative;
+    width: 35px;
+    height: 35px;
+    left: 0vh;
+    top: 8vh;
+    padding: 8vh;
+  }
+  .sonidosC {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    left: 57vh;
+  }
+  .unoc{
+    position: relative;
+    width: 10px;
+    height: 10px;
+    left: 40px; 
+    padding:6vh;
+    top:6vh;
+  }
+  .dosc{
+    position: relative;
+    width: 15px;
+    height: 15px;
+    right:2vh;
+    padding: 5vh;
+    top:2vh;
+  }
+  .tresc{
+    position: relative;
+    width: 50px;
+    height: 50px;
+    right: 6vh;
+    top: 2vh;
+    padding: 8vh;
+  }
+  
 }
