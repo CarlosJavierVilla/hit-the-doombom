@@ -1,16 +1,24 @@
 .elementomusical {
-  background-image: url(/hit-the-doombom/images/drumkit.png);
-  background-size: cover;
-  background-repeat: no-repeat;
   height: 50vh;
   width: 75vh;
   position: relative;
+}
+.imgdrum{
+  z-index: -2;
+  position: relative !important;
+}
+.botones{
+  top: 4vh;
+  z-index: 2;
+  position: absolute !important;
 }
 .elementomusical button{
   padding: none;
   cursor: pointer;
   border-radius: 100px;
-  background-color: rgb(0, 0, 0);
+  background-color: rgb(248, 198, 198);
+  top: 1vh;
+  z-index: 2;
 }
 .sonidosA {
   position: absolute;
@@ -18,13 +26,15 @@
   flex-direction: column;
   left: 5vh;
 }
+
 .uno{
   position: relative;
   width: 10px;
   height: 10px;
-  right: 40px; 
+  right: 3vh; 
   padding:6vh;
-  top:2vh;
+  top: 1vh;
+  bottom: 0vh;
 }
 .dos{
   position: relative;
@@ -78,21 +88,21 @@
   height: 10px;
   left: 40px; 
   padding:6vh;
-  top:2vh;
+  top:6vh;
 }
 .dosc{
   position: relative;
   width: 15px;
   height: 15px;
   right:2vh;
-  padding: 6vh;
-  top:2vh
+  padding: 5vh;
+  top:2vh;
 }
 .tresc{
-  position:relative;
+  position: relative;
   width: 50px;
   height: 50px;
-  right: 10vh;
-  top:2vh;
+  right: 6vh;
+  top: 2vh;
   padding: 8vh;
 }
